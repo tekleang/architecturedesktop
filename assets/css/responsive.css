@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+/*responsive with screet devices*/
+
+/*laptop HD*/
+
+@media (min-width:1301px) and (max-width:1500px) {
+	h2{font-size: 32px;}
+	#content .sub-banner .text{margin-top: 20%;}
+	#content .sub-banner .text h1{padding: 0 35% !important;}
+
+	
+
+}
+
+
+@media (min-width:1024px) and (max-width:1300px) {
+	h2{font-size: 26px !important;}
+	#content .sub-banner .text{margin-top: 30%;}
+	#content .sub-banner .text h1{padding: 0 30% !important;}
+
+	
+}
+ 
+@media (min-width:1024px) and (max-width:1299px){
+	/*h2{font-size: 26px;}*/
+}
+
+
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width:768px) and (max-width:1023px)  {
+	*{overflow-x: hidden;}
+	.pagination,.pagination .page,.pagination ul,
+	.pagination ul li{overflow-x: visible;}
+	h1{font-size: 28px;}
+	h2{font-size: 20px !important;}
+	
+}
+
+
+
+
+
+
