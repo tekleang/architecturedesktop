@@ -20,7 +20,7 @@
 				    <!-- Wrapper for slides -->
 
 			    <div class="carousel-inner">
-			    	<div class="box-img" style="position: absolute;z-index: 111;width: 100%;height: 100%;display: flex;'justify-content: center;align-items: center;">
+			    	<div class="box-img" style="position: absolute;z-index: 1;width: 100%;height: 100%;display: flex;'justify-content: center;align-items: center;">
 	              		<div class="img" style="display: flex;justify-content: center;align-items: center;width: 100%;position: absolute;top: 10px;">
 	              			<img src="assets/images/Architecture-option21-logo.svg" >
 	              		</div>
@@ -259,36 +259,34 @@
 	#content .profile .b-img{width: 100%;height: 100%;position: relative;}
 	#content .profile .b-img .left{}
 	#content .profile .b-img .right{background-image: url('assets/images/ptn-1.png');background-repeat: repeat;height: 900px;z-index: 10;}
-	/*#content .profile .group-profile{padding-top: 80px;width: 82%;position: absolute;}
 	#content .profile .title{margin-left: 67px;}
 	#content .profile .title h4{margin: 0;font-size: 18px;text-transform: uppercase;letter-spacing: 7px;margin-top: 50px;}
-	#content .profile .title h2{text-align: left;margin: 0;font-size: 35px;margin-top: 50px;padding-right: 54%;}*/
+	#content .profile .title h2{text-align: left;margin: 0;font-size: 35px;margin-top: 50px;padding-right: 54%;}
 
 #slider{position: absolute;width: 100%;}
-#slider img{width: 300px;height: 300px}
+#slider img{width: 525px !important;height: 525px}
 </style>
 			<!-- We is making headlines for raising the profile of architects news in the world. -->
 			<div class="container-fluid profile">
 				<div class="b-img">
-					<div class="col-sm-6 left"></div>
+					
+					<div>
+						<div class="col-sm-6 left"></div>
 					<div class="col-sm-6 right"></div>
-				</div>
-				<!-- <div class="container group-profile">
+					</div>
 					<div class="title">
-						<div class="linehigh"></div>
-						<h4>LATEST NEWS & EVENTS</h4>
-						<h2>We is making headlines for raising the profile of architects news in the world.</h2>
-					</div>
-					<div class="row">
-						
-					</div>
-				</div> -->
+					<div class="linehigh"></div>
+					<h4>LATEST NEWS & EVENTS</h4>
+					<h2>We is making headlines for raising the profile of architects news in the world.</h2>
+				</div>
 				<div id="slider">
 					<img src="assets/images/Architecture-Link-option21-media-01.jpg">
-					<img src="assets/images/Architecture-Link-option21-media-01.jpg">
-					<img src="assets/images/Architecture-Link-option21-media-01.jpg">
+					<img src="assets/images/Architecture-Link-option21-media-02.jpg">
+					<img src="assets/images/Architecture-Link-option21-media-03.jpg">
 					<img src="assets/images/Architecture-Link-option21-media-01.jpg">
 				</div>
+				</div>
+				
 			</div>
 
 			
@@ -299,7 +297,9 @@
 	$('#slider').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
-  centerMode: true,
+  autoplay: true,
+  autoplaySpeed: 4000,
+  // centerMode: true,
 });
 </script>
 

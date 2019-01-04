@@ -78,11 +78,11 @@
 		              	<div class="container">
 		              		 <div class="box">
 		              		 	<ul class="menu">
-				                  	<li class="wow fadeInLeft slow" data-wow-duration="1.4s"><a href="<?php echo $BATH_URL;?>desktop/content-location.php" title="">THE LOCATION</a></li>
-									<li class="wow fadeInLeft slow" data-wow-duration="1.6s"><a href="<?php echo $BATH_URL;?>desktop/content-plans.php" title="">FLOOR PLANS</a></li>
-									<li class="wow fadeInLeft slow" data-wow-duration="1.8s"><a href="<?php echo $BATH_URL;?>desktop/content-design.php" title="">INTERIORS DESIGN</a></li>
-									<li class="wow fadeInLeft slow" data-wow-duration="2s"><a href="<?php echo $BATH_URL;?>desktop/content-amenities.php" title="">OUR AMENITIES</a></li>
-									<li class="wow fadeInLeft slow" data-wow-duration="2.2s"><a href="<?php echo $BATH_URL;?>desktop/content-developer.php" title="">DEVELOPER PARTNER</a></li>
+				                  	<li class="wow fadeInLeft slow" data-wow-duration="1.4s"><a href="<?php echo $BATH_URL;?>desktop/content-about.php" title="">about</a></li>
+									<li class="wow fadeInLeft slow" data-wow-duration="1.6s"><a href="<?php echo $BATH_URL;?>desktop/content-portfolios.php" title="">PORTFOLIOS</a></li>
+									<li class="wow fadeInLeft slow" data-wow-duration="1.8s"><a href="<?php echo $BATH_URL;?>desktop/content-media.php" title="">media</a></li>
+									<li class="wow fadeInLeft slow" data-wow-duration="2s"><a href="<?php echo $BATH_URL;?>desktop/content-team.php" title="">team</a></li>
+									<li class="wow fadeInLeft slow" data-wow-duration="2.2s"><a href="<?php echo $BATH_URL;?>desktop/content-contact.php" title="">contact</a></li>
 									<li class="wow fadeInLeft slow" data-wow-duration="2.4s"><a href="<?php echo $BATH_URL;?>desktop/content-events.php" title="">NEWS & EVENTS</a></li>
 									<li class="wow fadeInLeft slow" data-wow-duration="2.6s"><a href="<?php echo $BATH_URL;?>desktop/content-galleries.php" title="">OUR GALLERIES</a></li>
 									<li class="wow fadeInLeft slow" data-wow-duration="2.8s"><a href="<?php echo $BATH_URL;?>desktop/content-team.php" title="">OUR TEAM</a></li>
