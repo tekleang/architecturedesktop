@@ -92,8 +92,81 @@
 				</div>
 			</div>
 		</div>
+		<style type="text/css">
+	#content .profile{overflow: hidden;display: flex;justify-content: center;}
+	#content .profile .b-img{width: 100%;height: 1030px;position: relative;}
+	#content .profile .b-img .left{}
+	#content .profile .b-img .right{background-image: url('<?php echo $BATH_URL;?>assets/images/ptn-1.png');background-repeat: repeat;height: 1030px;}
+	#content .profile .title{margin-left: 67px;padding-top: 80px;}
+	#content .profile .title h4{margin: 0;font-size: 18px;text-transform: uppercase;letter-spacing: 7px;margin-top: 50px;}
+	#content .profile .title h2{text-align: left;margin: 0;font-size: 35px;margin-top: 50px;padding-right: 54%;}
+
+#slider{width: 100%;padding-top: 50px;}
+/*#slider img{width: 525px !important;height: 525px}*/
+#slider .imglastnews{margin-right: 30px}
+#slider .imglastnews img{width:500px;height: 500px;object-fit: cover;}
+#content .profile .slick-initialized .slick-slide{margin-left: 28px;}
+#slider .text{padding-top: 30px;}
+#slider .text h3{font-size: 18px;text-transform: uppercase;line-height: 30px;margin: 0;}
+</style>
+
+			<!-- We is making headlines for raising the profile of architects news in the world. -->
+			<div class="container-fluid profile">
+				<div class="b-img">
+					<div style="position: absolute;top:0;left: 0;width:100%;height: 100%">
+						<div class="col-sm-6 left"></div>
+						<div class="col-sm-6 right"></div>
+					</div>
+					
+					<div class="container-fluid" style="padding-left: 171px">
+						<div class="title">
+							<div class="linehigh"></div>
+							<h4>LATEST NEWS & EVENTS</h4>
+							<h2>We is making headlines for raising the profile of architects news in the world.</h2>
+						</div>
+						<div id="slider">
+							<div class="imglastnews">
+								<img src="<?php echo $BATH_URL;?>assets/images/Architecture-Link-option21-media-01.jpg">
+								<div class="text">
+									<h3>ARCHITECTURE DESIGN</h3>
+								</div>
+							</div>
+							<div class="imglastnews">
+								<img src="<?php echo $BATH_URL;?>assets/images/Architecture-Link-option21-media-02.jpg">
+								<div class="text">
+									<h3>INTERIOR DESIGN</h3>
+								</div>
+							</div>
+							<div class="imglastnews">
+								<img src="<?php echo $BATH_URL;?>assets/images/Architecture-Link-option21-media-03.jpg">
+								<div class="text">
+									<h3>CONSTRUCTION</h3>
+								</div>
+							</div>
+							<div class="imglastnews">
+								<img src="<?php echo $BATH_URL;?>assets/images/Architecture-Link-option21-media-04.jpg">
+								<div class="text">
+									<h3>PROJECT</h3>
+								</div>
+							</div>
+						</div>
+					
+					</div>
+				</div>
+				
+			</div>
+
+<script type="text/javascript">
+	$('#slider').slick({
+	centerMode:true,
+  slidesToShow: 3.15,
+  autoplay: true,
+  autoplaySpeed: 4000,
+  // centerMode: true,
+});
+</script>
 <style>
-#content .award{padding-top:80px;overflow: hidden;position: relative;width:100%;display: flex;justify-content: center;}
+#content .award{padding-top:20px;overflow: hidden;position: relative;width:100%;display: flex;justify-content: center;}
 #content .award .img{width: 100%;height: 368px;}
 #content .award .img img{position: absolute;width: 100%;height: 100%;overflow: hidden;z-index:-1;}
 #content .award .group-award{width: 82%;position: absolute;z-index: 1;height: 100%;display: flex;align-items: center;top: 0;}
@@ -231,6 +304,8 @@
 #content .vision .items .text{text-align: center;display: flex;flex-direction: column;}
 #content .vision .items .text h4{font-size: 18px;font-weight: bold;opacity: 0.5;letter-spacing: 7px;text-transform: uppercase;}
 #content .vision .items .text p{font-size: 18px;padding: 0 22%;margin-top: 30px;}
+#content .vision .icon-quote{text-align: center;height: 40px;margin-top: 30px;}
+	#content .vision .icon-quote img{width: 40px;height: 100%;
 </style>
 		<!-- OUR VISION AND MISSION -->
 		<div class="container-fluid vision">
@@ -244,13 +319,21 @@
 						<div class="text">
 							<h4>OUR VISION</h4>
 							<p>is to transform Archsite into a leading architecture design and construction company, which offers the best quality to clients.</p>
+							<div class="icon-quote">
+								<img src="<?php echo $BATH_URL;?>/assets/images/quote.png">
+							</div>
 						</div>
+						
 					</div>
 					<div class="items">
 						<div class="text">
 							<h4>OUR MISSION</h4>
 							<p>is to complete project safety, economically, functionally and creatively. To do this, we have recruited many talented people and cooperated with other construction and architecture companies.</p>
+							<div class="icon-quote">
+								<img src="<?php echo $BATH_URL;?>/assets/images/quote.png">
+							</div>
 						</div>
+						
 					</div>
 				</div>
 			</div>

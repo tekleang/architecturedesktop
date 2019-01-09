@@ -13,6 +13,9 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo $BATH_URL;?>assets/css/animate.min.css">
 	<link rel="stylesheet" href="<?php echo $BATH_URL;?>assets/css/desk-style.css">
 
+	<link rel="stylesheet" href="<?php echo $BATH_URL;?>assets/css/portfolios-detail-style.css">
+	<link rel="stylesheet" href="<?php echo $BATH_URL;?>assets/css/media-detail-style.css">
+
 
 	<link href="<?php echo $BATH_URL;?>assets/css/demo.css" rel="stylesheet">
 	<script src="<?php echo $BATH_URL;?>assets/scripts/jquery.js"></script>
@@ -83,10 +86,10 @@
 									<li class="wow fadeInLeft slow" data-wow-duration="1.8s"><a href="<?php echo $BATH_URL;?>desktop/content-media.php" title="">media</a></li>
 									<li class="wow fadeInLeft slow" data-wow-duration="2s"><a href="<?php echo $BATH_URL;?>desktop/content-team.php" title="">team</a></li>
 									<li class="wow fadeInLeft slow" data-wow-duration="2.2s"><a href="<?php echo $BATH_URL;?>desktop/content-contact.php" title="">contact</a></li>
-									<li class="wow fadeInLeft slow" data-wow-duration="2.4s"><a href="<?php echo $BATH_URL;?>desktop/content-events.php" title="">NEWS & EVENTS</a></li>
+									<!-- <li class="wow fadeInLeft slow" data-wow-duration="2.4s"><a href="<?php echo $BATH_URL;?>desktop/content-events.php" title="">NEWS & EVENTS</a></li>
 									<li class="wow fadeInLeft slow" data-wow-duration="2.6s"><a href="<?php echo $BATH_URL;?>desktop/content-galleries.php" title="">OUR GALLERIES</a></li>
-									<li class="wow fadeInLeft slow" data-wow-duration="2.8s"><a href="<?php echo $BATH_URL;?>desktop/content-team.php" title="">OUR TEAM</a></li>
-									<li class="wow fadeInLeft slow" data-wow-duration="3s"><a href="<?php echo $BATH_URL;?>desktop/content-contact.php" title="">CONTACT US</a></li>
+									<li class="wow fadeInLeft slow" data-wow-duration="2.8s"><a href="<?php echo $BATH_URL;?>desktop/content-media-detail.php" title="">OUR TEAM</a></li>
+									<li class="wow fadeInLeft slow" data-wow-duration="3s"><a href="<?php echo $BATH_URL;?>desktop/content-portfolios-detail.php" title="">CONTACT US</a></li> -->
 				                </ul>
 		              		 </div>
 		              	</div>

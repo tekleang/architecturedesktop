@@ -256,54 +256,153 @@
 			</div>
 <style type="text/css">
 	#content .profile{overflow: hidden;display: flex;justify-content: center;}
-	#content .profile .b-img{width: 100%;height: 100%;position: relative;}
+	#content .profile .b-img{width: 100%;height: 1030px;position: relative;}
 	#content .profile .b-img .left{}
-	#content .profile .b-img .right{background-image: url('assets/images/ptn-1.png');background-repeat: repeat;height: 900px;z-index: 10;}
-	#content .profile .title{margin-left: 67px;}
+	#content .profile .b-img .right{background-image: url('assets/images/ptn-1.png');background-repeat: repeat;height: 1030px;}
+	#content .profile .title{margin-left: 67px;padding-top: 80px;}
 	#content .profile .title h4{margin: 0;font-size: 18px;text-transform: uppercase;letter-spacing: 7px;margin-top: 50px;}
 	#content .profile .title h2{text-align: left;margin: 0;font-size: 35px;margin-top: 50px;padding-right: 54%;}
 
-#slider{position: absolute;width: 100%;}
-#slider img{width: 525px !important;height: 525px}
+#slider{width: 100%;padding-top: 50px;}
+/*#slider img{width: 525px !important;height: 525px}*/
+#slider .imglastnews{margin-right: 30px}
+#slider .imglastnews img{width:500px;height: 500px;object-fit: cover;}
+#content .profile .slick-initialized .slick-slide{margin-left: 28px;}
+#slider .text{padding-top: 30px;}
+#slider .text h3{font-size: 18px;text-transform: uppercase;line-height: 30px;margin: 0;}
 </style>
+
 			<!-- We is making headlines for raising the profile of architects news in the world. -->
 			<div class="container-fluid profile">
 				<div class="b-img">
-					
-					<div>
+					<div style="position: absolute;top:0;left: 0;width:100%;height: 100%">
 						<div class="col-sm-6 left"></div>
-					<div class="col-sm-6 right"></div>
+						<div class="col-sm-6 right"></div>
 					</div>
-					<div class="title">
-					<div class="linehigh"></div>
-					<h4>LATEST NEWS & EVENTS</h4>
-					<h2>We is making headlines for raising the profile of architects news in the world.</h2>
-				</div>
-				<div id="slider">
-					<img src="assets/images/Architecture-Link-option21-media-01.jpg">
-					<img src="assets/images/Architecture-Link-option21-media-02.jpg">
-					<img src="assets/images/Architecture-Link-option21-media-03.jpg">
-					<img src="assets/images/Architecture-Link-option21-media-01.jpg">
-				</div>
+					
+					<div class="container-fluid" style="padding-left: 171px">
+						<div class="title">
+							<div class="linehigh"></div>
+							<h4>LATEST NEWS & EVENTS</h4>
+							<h2>We is making headlines for raising the profile of architects news in the world.</h2>
+						</div>
+						<div id="slider">
+							<div class="imglastnews">
+								<img src="assets/images/Architecture-Link-option21-media-01.jpg">
+								<div class="text">
+									<h3>DESIGN AND ARCHITECTURE SINGAPORE:<br>SOUTHEAST ASIA FOCUS</h3>
+								</div>
+							</div>
+							<div class="imglastnews">
+								<img src="assets/images/Architecture-Link-option21-media-02.jpg">
+								<div class="text">
+									<h3>DESIGN AND ARCHITECTURE SINGAPORE:<br>SOUTHEAST ASIA FOCUS</h3>
+								</div>
+							</div>
+							<div class="imglastnews">
+								<img src="assets/images/Architecture-Link-option21-media-03.jpg">
+								<div class="text">
+									<h3>DESIGN AND ARCHITECTURE SINGAPORE:<br>SOUTHEAST ASIA FOCUS</h3>
+								</div>
+							</div>
+							<div class="imglastnews">
+								<img src="assets/images/Architecture-Link-option21-media-04.jpg">
+								<div class="text">
+									<h3>DESIGN AND ARCHITECTURE SINGAPORE:<br>SOUTHEAST ASIA FOCUS</h3>
+								</div>
+							</div>
+						</div>
+					
+					</div>
 				</div>
 				
 			</div>
 
-			
-
-
-
 <script type="text/javascript">
 	$('#slider').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
+	centerMode:true,
+  slidesToShow: 3.15,
+  autoplay: true,
+  autoplaySpeed: 4000,
+  // centerMode: true,
+});
+</script>			
+
+
+
+
+<style type="text/css">
+#content .achive{background-color: #E7E7E8;}
+#content .achive .group-achive{padding-left: 171px;padding-top: 80px;padding-bottom: 80px;}
+#content .achive .title{margin-left: 67px;}
+#content .achive .title h4{margin: 0;font-size: 18px;text-transform: uppercase;letter-spacing: 7px;margin-top: 50px;}
+#content .achive .title h2{text-align: left;margin: 0;font-size: 35px;margin-top: 50px;padding-right: 54%;}
+#slideshow{width: 100%;padding-top: 50px;}
+/*#slider img{width: 525px !important;height: 525px}*/
+#slideshow .imglastnews{margin-right: 30px}
+#slideshow .imglastnews img{width:380px;height: 385px;object-fit: cover;}
+#content .achive .slick-initialized .slick-slide{margin-left: 83px;}
+#slideshow .text{padding-top: 30px;}
+#slideshow .text h3{font-size: 18px;text-transform: uppercase;margin: 0;}
+#slideshow .text h4{font-size: 18px;margin: 0;text-transform: capitalize;margin-top: 15px;}
+</style>
+
+<!-- We like, love, trusted each other among the team to achive together -->
+<div class="container-fluid achive">
+	<div class="container-fluid group-achive">
+		<div class="title">
+			<div class="linehigh"></div>
+			<h4>JOIN OUR TEAM</h4>
+			<h2>We like, love, trusted each other among the team to achive together</h2>
+		</div>
+		<div id="slideshow">
+			<div class="imglastnews">
+				<img src="assets/images/Architecture-Link-option21-team-01.jpg">
+				<div class="text">
+					<h3>Mr. SOCHEA</h3>
+					<h4>architecture director</h4>
+				</div>
+			</div>
+			<div class="imglastnews">
+				<img src="assets/images/Architecture-Link-option21-team-02.jpg">
+				<div class="text">
+					<h3>Mr. SENG THANET</h3>
+					<h4>Finance Manager</h4>
+				</div>
+			</div>
+			<div class="imglastnews">
+				<img src="assets/images/Architecture-Link-option21-team-03.jpg">
+				<div class="text">
+					<h3>Mr. NOREAKSATHYA</h3>
+					<h4>Architecture Supervisor</h4>
+				</div>
+			</div>
+			<div class="imglastnews">
+				<img src="assets/images/Architecture-Link-option21-team-04.jpg">
+				<div class="text">
+					<h3>Mr. BENHEAVOTY</h3>
+					<h4>Interior Design Manager</h4>
+				</div>
+			</div>
+			<div class="imglastnews">
+				<img src="assets/images/Architecture-Link-option21-team-04.jpg">
+				<div class="text">
+					<h3>Mr. SOCHEA</h3>
+					<h4>architecture director</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	$('#slideshow').slick({
+	centerMode:false,
+  slidesToShow: 4.20,
   autoplay: true,
   autoplaySpeed: 4000,
   // centerMode: true,
 });
 </script>
-
-
 
 
 <style type="text/css">
@@ -312,6 +411,8 @@
 	#content .happy .title{margin-left: 67px;}
 	#content .happy .title h4{margin: 0;font-size: 18px;text-transform: uppercase;letter-spacing: 7px;margin-top: 50px;} 
 	#content .happy p{text-align: center;padding: 0 29%;margin: 0;line-height: 30px;font-size: 18px;margin-top: 50px;}
+	#content .happy .icon-quote{text-align: center;height: 40px;margin-top: 30px;}
+	#content .happy .icon-quote img{width: 40px;height: 100%;
 </style>
 			<!-- H A P P Y C L I E N T ’ S S A Y -->
 			<div class="container-fluid happy">
@@ -321,8 +422,12 @@
 						<h4>HAPPY CLIENT’S SAY</h4>
 					</div>
 						<div class="row">
-						<p>Thanks you all for your tremendous help designing lumiere hotel project. Without your diligence, hard workd, and several late night work, we would not have been able to meet our deadline. More than that Lumiere is always fully booked.</p>
-					</div>
+							<p>Thanks you all for your tremendous help designing lumiere hotel project. Without your diligence, hard workd, and several late night work, we would not have been able to meet our deadline. More than that Lumiere is always fully booked.</p>
+							<div class="icon-quote">
+								<img src="assets/images/quote.png">
+							</div>
+						</div>
+
 				</div>
 				
 			</div>
@@ -330,10 +435,10 @@
 #content .partner{display: flex;}
 #content .partner .group-partner{padding-top: 80px;width: 82%;}
 #content .partner .title{margin-left: 67px;}
-#content .partner .title h4{margin: 0;font-size: 18px;text-transform: uppercase;letter-spacing: 7px;margin-top: 50px;}
+#content .partner .title h4{margin: 0;font-size: 18px;text-transform: uppercase;letter-spacing: 7px;margin-top: 50px;padding-bottom: 25px;}
 }
 #partner.slick-initialized .slick-slide {display: flex !important;flex-direction: column;justify-content: center;align-items: center;}
-#partner .slick-slide>div {width: 170px;height: 80px;margin-top: 50px;}
+#partner .slick-slide>div {width: 170px;height: 100px;margin-top: 25px;}
 #partner .slick-slide>div>img {width: 100%; height: 100%;object-fit: cover;}
 #partner .slick-dots {position: absolute;display: inline-flex; width: calc(100% - 30px);padding-top: 40px; margin: 0;bottom: -40px;list-style: none;text-align: center; justify-content: center;}
 #partner .slick-dots li { padding: 5px;}
