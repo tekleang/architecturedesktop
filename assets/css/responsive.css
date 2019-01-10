@@ -9,11 +9,21 @@
 /*laptop HD*/
 
 @media (min-width:1301px) and (max-width:1500px) {
-	h2{font-size: 32px;}
+	h2{font-size: 32px !important;}
 	#content .sub-banner .text{margin-top: 20%;}
-	#content .sub-banner .text h1{padding: 0 35% !important;}
-
-	
+	#content .sub-banner .text h1{padding: 0 35%;}
+	#content .build .welcome .box-text h2{padding-right: 5%;}
+	#content .build .welcome .box-text p{margin-right: 40px;}
+	#content .luxury .title h2{margin-right: -12%;}
+	#content .luxury .items .img{height: 320px;}
+	#content .profile .title h2{padding-right: 48%;}
+	#slider .imglastnews img{width: 340px;}
+	#content .profile .group-profile{padding-left: 108px !important;}
+	#slider .imglastnews img{height: 368px;}
+	#content .achive .group-achive{padding-left: 108px !important;}
+	#slideshow .imglastnews{width: 290px !important;}
+	#content .happy p{padding: 0 20%;}
+	#partner .slick-slide>div{height: 75px;width: 126px;}
 
 }
 

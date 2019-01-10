@@ -71,5 +71,6 @@
     <!-- JS -->
 	<!-- <script src="//code.jquery.com/jquery-3.2.1.min.js"></script> -->
 	<script src="<?php echo $BATH_URL;?>assets/scripts/jquery.fancybox.min.js"></script>
+	<link rel="stylesheet" href="<?php echo $BATH_URL;?>assets/css/responsive.css">
 </body>
 </html>

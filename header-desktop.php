@@ -70,7 +70,7 @@
 		                  	</li>
 							<li>
 		                  		<a href="#">
-		                  			<img src="<?php echo $BATH_URL;?>assets/images/logo-Facebook .svg">
+		                  			<img src="<?php echo $BATH_URL;?>assets/images/logo-youtube.svg">
 		                  		</a>
 		                  	</li>
 							

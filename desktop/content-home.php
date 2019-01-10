@@ -21,7 +21,7 @@
 
 			    <div class="carousel-inner">
 			    	<div class="box-img" style="position: absolute;z-index: 1;width: 100%;height: 100%;display: flex;'justify-content: center;align-items: center;">
-	              		<div class="img" style="display: flex;justify-content: center;align-items: center;width: 100%;position: absolute;top: 10px;">
+	              		<div class="img" style="display: flex;justify-content: center;align-items: center;width: 100%;position: absolute;top: 20px;">
 	              			<img src="assets/images/Architecture-option21-logo.svg" >
 	              		</div>
 					</div>	
@@ -40,7 +40,10 @@
 			      	<div class="gradientb" ></div>
 			        <img data-imgzoom data-sarallax src="assets/images/Architecture-homepage-Link-option21-banner-01.jpg" alt="Architecture">
 			          <div class="carousel-caption">
-			          	  		          	
+			          	  	<div class="text">
+				              	<div class="linehigh"></div>
+				              	<h1>ARCHSITE FROM SKETCHES TO REAL LIFE</h1>
+				            </div>	          	
 			          </div>
 			      </div>
 
@@ -48,7 +51,10 @@
 			      	<div class="gradientb" ></div>
 			        <img data-imgzoom data-sarallax src="assets/images/Architecture-homepage-Link-option21-banner-01.jpg" alt="Architecture">
 			          <div class="carousel-caption">
-			          			          	
+			          		<div class="text">
+				              	<div class="linehigh"></div>
+				              	<h1>ARCHSITE FROM SKETCHES TO REAL LIFE</h1>
+				            </div>	          	
 			          </div>
 			      </div>
 
@@ -73,7 +79,7 @@
 #content .build .welcome{position: absolute;top: 0;}
 #content .build .welcome .box-text{}
 #content .build .welcome .box-text h4{margin: 0;font-size: 18px;text-transform: uppercase;letter-spacing: 7px;margin-top: 50px;}
-#content .build .welcome .box-text p{font-size: 18px;margin-top: 50px;}
+#content .build .welcome .box-text p{font-size: 18px;margin: 0;padding-top: 50px;}
 #content .build .welcome .box-text h2{text-align: left;margin: 0;font-size: 35px;margin-top: 50px;padding-right: 2%;}
 
 </style>
@@ -121,8 +127,8 @@
 	#content .luxury .items .img .gradientb{opacity: 0;}
 	#content .luxury .items .img img{width: 100%;height: 100%;object-fit: cover;}
 	#content .luxury .items .text{width: 100%;display: flex;justify-content: center;align-items: center;flex-direction: column;position: absolute;color: #fff;opacity: 0;transition: 0.7s;}
-	#content .luxury .items .text h3{font-size: 18px;}
-	#content .luxury .items .text p{font-size: 14px;}
+	#content .luxury .items .text h3{font-size: 18px;margin-right: 78%;transition: 1.5s;}
+	#content .luxury .items .text p{font-size: 14px;margin-top: 40%;transition: 1.5s;}
 
 #content .luxury .zoom-out{overflow: hidden;}
 #content .luxury .zoom-out img{transition: 0.7s;}
@@ -132,6 +138,8 @@
 #content .luxury .box-thin-height .col-sm-4 .img{height: 290px;}
 #content .luxury .items:hover .gradientb{opacity: 1;z-index: 1;}
 
+#content .luxury .zoom-out:hover .text h3{margin-right: 0%;}
+#content .luxury .zoom-out:hover .text p{margin-top: 0%;}
 </style>
 			<!-- Touch modern concepts and designs with luxury architecture. -->
 			<div class="container-fluid luxury">
@@ -275,37 +283,37 @@
 			<!-- We is making headlines for raising the profile of architects news in the world. -->
 			<div class="container-fluid profile">
 				<div class="b-img">
-					<div style="position: absolute;top:0;left: 0;width:100%;height: 100%">
+					<div style="position: absolute;top:0;left: 0;width:100%;height: 100%;z-index: -1;">
 						<div class="col-sm-6 left"></div>
 						<div class="col-sm-6 right"></div>
 					</div>
 					
-					<div class="container-fluid" style="padding-left: 171px">
+					<div class="container-fluid group-profile" style="padding-left: 171px;">
 						<div class="title">
 							<div class="linehigh"></div>
 							<h4>LATEST NEWS & EVENTS</h4>
 							<h2>We is making headlines for raising the profile of architects news in the world.</h2>
 						</div>
 						<div id="slider">
-							<div class="imglastnews">
+							<div class="imglastnews wow zoomIn slow" data-wow-duration="3.2s">
 								<img src="assets/images/Architecture-Link-option21-media-01.jpg">
 								<div class="text">
 									<h3>DESIGN AND ARCHITECTURE SINGAPORE:<br>SOUTHEAST ASIA FOCUS</h3>
 								</div>
 							</div>
-							<div class="imglastnews">
+							<div class="imglastnews wow zoomIn slow" data-wow-duration="3.4s">
 								<img src="assets/images/Architecture-Link-option21-media-02.jpg">
 								<div class="text">
 									<h3>DESIGN AND ARCHITECTURE SINGAPORE:<br>SOUTHEAST ASIA FOCUS</h3>
 								</div>
 							</div>
-							<div class="imglastnews">
+							<div class="imglastnews wow zoomIn slow" data-wow-duration="3.6s">
 								<img src="assets/images/Architecture-Link-option21-media-03.jpg">
 								<div class="text">
 									<h3>DESIGN AND ARCHITECTURE SINGAPORE:<br>SOUTHEAST ASIA FOCUS</h3>
 								</div>
 							</div>
-							<div class="imglastnews">
+							<div class="imglastnews wow zoomIn slow" data-wow-duration="3.8s">
 								<img src="assets/images/Architecture-Link-option21-media-04.jpg">
 								<div class="text">
 									<h3>DESIGN AND ARCHITECTURE SINGAPORE:<br>SOUTHEAST ASIA FOCUS</h3>
@@ -338,13 +346,18 @@
 #content .achive .title h4{margin: 0;font-size: 18px;text-transform: uppercase;letter-spacing: 7px;margin-top: 50px;}
 #content .achive .title h2{text-align: left;margin: 0;font-size: 35px;margin-top: 50px;padding-right: 54%;}
 #slideshow{width: 100%;padding-top: 50px;}
-/*#slider img{width: 525px !important;height: 525px}*/
-#slideshow .imglastnews{margin-right: 30px}
-#slideshow .imglastnews img{width:380px;height: 385px;object-fit: cover;}
+#slider{height: 385px;}
+#slideshow .imglastnews{margin-right: 30px;overflow: hidden;}
+#slideshow .imglastnews>div{overflow: hidden;transition: 0.7s;}
+#slideshow .imglastnews img{width:100%;height: 100%;object-fit: cover;}
 #content .achive .slick-initialized .slick-slide{margin-left: 83px;}
 #slideshow .text{padding-top: 30px;}
 #slideshow .text h3{font-size: 18px;text-transform: uppercase;margin: 0;}
 #slideshow .text h4{font-size: 18px;margin: 0;text-transform: capitalize;margin-top: 15px;}
+
+#content .achive .zoom-out{overflow: hidden;}
+#content .achive .zoom-out img{transition: 0.7s;}
+#content .achive .zoom-out:hover img{-moz-transform: scale(1);-webkit-transform: scale(1.1);transform: scale(1.1);}
 </style>
 
 <!-- We like, love, trusted each other among the team to achive together -->
@@ -356,36 +369,46 @@
 			<h2>We like, love, trusted each other among the team to achive together</h2>
 		</div>
 		<div id="slideshow">
-			<div class="imglastnews">
-				<img src="assets/images/Architecture-Link-option21-team-01.jpg">
+			<div class="imglastnews zoom-out">
+				<div>
+					<img src="assets/images/Architecture-Link-option21-team-01.jpg">
+				</div>
 				<div class="text">
 					<h3>Mr. SOCHEA</h3>
 					<h4>architecture director</h4>
 				</div>
 			</div>
-			<div class="imglastnews">
-				<img src="assets/images/Architecture-Link-option21-team-02.jpg">
+			<div class="imglastnews zoom-out">
+				<div>
+					<img src="assets/images/Architecture-Link-option21-team-02.jpg">
+				</div>
 				<div class="text">
 					<h3>Mr. SENG THANET</h3>
 					<h4>Finance Manager</h4>
 				</div>
 			</div>
-			<div class="imglastnews">
-				<img src="assets/images/Architecture-Link-option21-team-03.jpg">
+			<div class="imglastnews zoom-out">
+				<div>
+					<img src="assets/images/Architecture-Link-option21-team-03.jpg">
+				</div>
 				<div class="text">
 					<h3>Mr. NOREAKSATHYA</h3>
 					<h4>Architecture Supervisor</h4>
 				</div>
 			</div>
-			<div class="imglastnews">
-				<img src="assets/images/Architecture-Link-option21-team-04.jpg">
+			<div class="imglastnews zoom-out">
+				<div>
+					<img src="assets/images/Architecture-Link-option21-team-04.jpg">
+				</div>
 				<div class="text">
 					<h3>Mr. BENHEAVOTY</h3>
 					<h4>Interior Design Manager</h4>
 				</div>
 			</div>
-			<div class="imglastnews">
-				<img src="assets/images/Architecture-Link-option21-team-04.jpg">
+			<div class="imglastnews zoom-out">
+				<div>
+					<img src="assets/images/Architecture-Link-option21-team-04.jpg">
+				</div>
 				<div class="text">
 					<h3>Mr. SOCHEA</h3>
 					<h4>architecture director</h4>

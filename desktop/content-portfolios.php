@@ -26,7 +26,7 @@
 		</div>
 		<style type="text/css">
 	#content .profile{overflow: hidden;display: flex;justify-content: center;}
-	#content .profile .b-img{width: 100%;height: 1000px;position: relative;}
+	#content .profile .b-img{width: 100%;height: 900px;position: relative;}
 	#content .profile .b-img .left{}
 	#content .profile .b-img .right{background-image: url('<?php echo $BATH_URL;?>assets/images/ptn-1.png');background-repeat: repeat;height: 1030px;}
 	#content .profile .title{margin-left: 67px;padding-top: 80px;}
