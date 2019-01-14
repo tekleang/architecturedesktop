@@ -274,7 +274,7 @@
 #slider{width: 100%;padding-top: 50px;}
 /*#slider img{width: 525px !important;height: 525px}*/
 #slider .imglastnews{margin-right: 30px}
-#slider .imglastnews img{width:500px;height: 500px;object-fit: cover;}
+#slider .imglastnews img{width:100%;height: 500px;object-fit: cover;}
 #content .profile .slick-initialized .slick-slide{margin-left: 28px;}
 #slider .text{padding-top: 30px;}
 #slider .text h3{font-size: 18px;text-transform: uppercase;line-height: 30px;margin: 0;}
@@ -463,7 +463,7 @@
 #partner.slick-initialized .slick-slide {display: flex !important;flex-direction: column;justify-content: center;align-items: center;}
 #partner .slick-slide>div {width: 170px;height: 100px;margin-top: 25px;}
 #partner .slick-slide>div>img {width: 100%; height: 100%;object-fit: cover;}
-#partner .slick-dots {position: absolute;display: inline-flex; width: calc(100% - 30px);padding-top: 40px; margin: 0;bottom: -40px;list-style: none;text-align: center; justify-content: center;}
+#partner .slick-dots {position: absolute;display: inline-flex; width: calc(100% - 30px);padding-top: 40px; margin: 0;bottom: -50px;list-style: none;text-align: center; justify-content: center;width: 100%;padding: 0;}
 #partner .slick-dots li { padding: 5px;}
 #partner .slick-dots li button { width: 8px;height: 8px;background-color: white;border: red 1px solid;border-radius: 50%;padding: 0;}
 #partner .slick-dots li.slick-active button {background-color: red;}

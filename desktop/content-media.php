@@ -50,7 +50,7 @@
 						<div class="col-sm-6 right"></div>
 					</div>
 					
-					<div class="container-fluid" style="padding-left: 171px">
+					<div class="container-fluid group-profile" style="padding-left: 171px">
 						<div class="title">
 							<div class="linehigh"></div>
 							<h4>LATEST NEWS & EVENTS</h4>
@@ -104,7 +104,7 @@
 #content .event .title{margin-left: 67px;}
 #content .event .title h4{margin: 0;font-size: 18px;text-transform: uppercase;letter-spacing: 7px;margin-top: 50px;}
 #content .event .items{padding-top: 50px;overflow: hidden;}
-#content .event .items .img{height: 525px;width: 100%;overflow: hidden;}
+#content .event .items .img{height: 525px;width: 525px;overflow: hidden;}
 #content .event .items .img img{width: 100%;height: 100%;object-fit: cover;}
 #content .event .items .text{margin-top: 30px;}
 #content .event .items .text h4{margin: 0;line-height: 30px;}

@@ -25,37 +25,37 @@
 		    </div>
 		</div>
 		<style type="text/css">
-	#content .profile{overflow: hidden;display: flex;justify-content: center;}
-	#content .profile .b-img{width: 100%;height: 900px;position: relative;}
-	#content .profile .b-img .left{}
-	#content .profile .b-img .right{background-image: url('<?php echo $BATH_URL;?>assets/images/ptn-1.png');background-repeat: repeat;height: 1030px;}
-	#content .profile .title{margin-left: 67px;padding-top: 80px;}
-	#content .profile .title h4{margin: 0;font-size: 18px;text-transform: uppercase;letter-spacing: 7px;margin-top: 50px;}
+	#content .inprogress{overflow: hidden;display: flex;justify-content: center;}
+	#content .inprogress .b-img{width: 100%;height: 880px;position: relative;}
+	#content .inprogress .b-img .left{}
+	#content .inprogress .b-img .right{background-image: url('<?php echo $BATH_URL;?>assets/images/ptn-1.png');background-repeat: repeat;height: 1030px;}
+	#content .inprogress .title{margin-left: 67px;padding-top: 80px;}
+	#content .inprogress .title h4{margin: 0;font-size: 18px;text-transform: uppercase;letter-spacing: 7px;margin-top: 50px;}
 
-#slider{width: 100%;padding-top: 50px;}
+#slider-portflios{width: 100%;padding-top: 50px;}
 /*#slider img{width: 525px !important;height: 525px}*/
-#slider .imglastnews{margin-right: 30px}
-#slider .imglastnews img{width:800px;height: 450px;object-fit: cover;}
-#content .profile .slick-initialized .slick-slide{margin-left: -33px;}
-#slider .text{padding-top: 30px;}
-#slider .text h3{font-size: 18px;text-transform: uppercase;line-height: 30px;margin: 0;}
-#slideshow .text h4{font-size: 18px;margin: 0;text-transform: capitalize;margin-top: 15px;}
+#slider-portflios .imglastnews{margin-right: 30px}
+#slider-portflios .imglastnews img{width:800px;height: 450px;object-fit: cover;}
+#content .inprogress .slick-initialized .slick-slide{margin-left: -33px;}
+#slider-portflios .text{padding-top: 30px;}
+#slider-portflios .text h3{font-size: 18px;text-transform: uppercase;line-height: 30px;margin: 0;}
+#slider-portflios .text h4{font-size: 18px;margin: 0;text-transform: capitalize;margin-top: 15px;}
 </style>
 
 			<!-- We is making headlines for raising the profile of architects news in the world. -->
-			<div class="container-fluid profile">
+			<div class="container-fluid inprogress">
 				<div class="b-img">
 					<div style="position: absolute;top:0;left: 0;width:100%;height: 100%">
 						<div class="col-sm-6 left"></div>
 						<div class="col-sm-6 right"></div>
 					</div>
 					
-					<div class="container-fluid" style="padding-left: 171px">
+					<div class="container-fluid group-inprogress" style="padding-left: 171px">
 						<div class="title">
 							<div class="linehigh"></div>
 							<h4>INPROGRESS PROJECTS</h4>
 						</div>
-						<div id="slider">
+						<div id="slider-portflios">
 							<div class="imglastnews">
 								<img src="<?php echo $BATH_URL;?>assets/images/Architecture-portfolios-details-Link-option21-01.jpg">
 								<div class="text">
@@ -86,7 +86,7 @@
 			</div>
 
 <script type="text/javascript">
-	$('#slider').slick({
+	$('#slider-portflios').slick({
 	centerMode:true,
   slidesToShow: 2.01,
   autoplay: true,
@@ -123,7 +123,7 @@
 				<div class="container group-luxury">
 					<div class="title">
 						<div class="linehigh"></div>
-						<h4>LATEST PROJECTS</h4>
+						<h4>our PROJECTS</h4>
 					</div>
 					<div class="row">
 						<div class="box"></div>

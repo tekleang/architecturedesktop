@@ -99,7 +99,7 @@
 	#content .profile .b-img .right{background-image: url('<?php echo $BATH_URL;?>assets/images/ptn-1.png');background-repeat: repeat;height: 1030px;}
 	#content .profile .title{margin-left: 67px;padding-top: 80px;}
 	#content .profile .title h4{margin: 0;font-size: 18px;text-transform: uppercase;letter-spacing: 7px;margin-top: 50px;}
-	#content .profile .title h2{text-align: left;margin: 0;font-size: 35px;margin-top: 50px;padding-right: 54%;}
+	#content .profile .title h2{text-align: left;margin: 0;font-size: 35px;margin-top: 50px;padding-right: 63%;}
 
 #slider{width: 100%;padding-top: 50px;}
 /*#slider img{width: 525px !important;height: 525px}*/
@@ -118,10 +118,10 @@
 						<div class="col-sm-6 right"></div>
 					</div>
 					
-					<div class="container-fluid" style="padding-left: 171px">
+					<div class="container-fluid group-profile" style="padding-left: 171px">
 						<div class="title">
 							<div class="linehigh"></div>
-							<h4>LATEST NEWS & EVENTS</h4>
+							<h4>what we do</h4>
 							<h2>We is making headlines for raising the profile of architects news in the world.</h2>
 						</div>
 						<div id="slider">

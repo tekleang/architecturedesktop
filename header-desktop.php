@@ -27,7 +27,7 @@
 	<script src="<?php echo $BATH_URL;?>assets/scripts/function clickshow.js"></script>
 	<script src="<?php echo $BATH_URL;?>assets/scripts/wow.min.js"></script>
 	<script>new WOW().init();</script>
-	<link rel="stylesheet" href="<?php echo $BATH_URL;?>assets/css/responsive.css">
+	
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 	<!-- Object Fit polyfill -->

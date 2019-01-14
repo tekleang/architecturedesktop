@@ -19,11 +19,19 @@
 	#content .profile .title h2{padding-right: 48%;}
 	#slider .imglastnews img{width: 340px;}
 	#content .profile .group-profile{padding-left: 108px !important;}
-	#slider .imglastnews img{height: 368px;}
+	#slider .imglastnews img{height: 350px;}
 	#content .achive .group-achive{padding-left: 108px !important;}
 	#slideshow .imglastnews{width: 290px !important;}
 	#content .happy p{padding: 0 20%;}
 	#partner .slick-slide>div{height: 75px;width: 126px;}
+	#content .profile .b-img{height: 860px;}
+	#slider-portflios .imglastnews img{width: 550px;height: 300px;}
+	#content .inprogress .b-img{height: 735px;}
+	#slider .text h3{font-size: 16px;}
+	#content .event .items .img{height: 350px;width: 350px;}
+	#content .event .items .text h4{font-size: 16px;}
+	#content .team .items .img{height: 290px;}
+	#content .opennow .items .text{height: 430px;}
 
 }
 
@@ -32,6 +40,53 @@
 	h2{font-size: 26px !important;}
 	#content .sub-banner .text{margin-top: 30%;}
 	#content .sub-banner .text h1{padding: 0 30% !important;}
+
+	#content .build .col-sm-6 .img{height: 450px;}
+	#content .build .welcome .box-text h2{padding-right: 20%;}
+	#content .build .welcome .box-text p{font-size: 16px;padding-right: 20%;}
+	#content .luxury .title h2{padding-right: 49%;}
+	#content .luxury .items .img{height: 218px;}
+	#content .luxury .box-thin-height .col-sm-4 .img{height: 230px;}
+	#content .profile .title h2{padding-right: 39%;}
+	#slider .imglastnews img{height: 245px;width: 245px;}
+	#content .profile .slick-initialized .slick-slide{margin-left: -10px;}
+	#content .profile .group-profile{padding-left: 91px !important;}
+	#slider .text h3{font-size: 12px;line-height: 25px;}
+	#content .profile .b-img{height: 750px;}
+	#content .achive .title h2{padding-right: 43%;}
+	#content .achive .group-achive{padding-left: 91px;}
+	#content .achive .slick-initialized .slick-slide{margin-left: 45px;}
+	#slideshow .text h4{font-size: 14px;}
+	#content .happy p{padding: 0 12%;}
+	#content .happy .icon-quote{height: 30px;}
+	#content .happy .icon-quote img{width: 30px;}
+
+	#content .project .title h2{padding-right: 36%;}
+	#content .project .box{display: none;}
+	#content .project .items .img{height: 350px;}
+	#content .profile .group-profile{padding-left: 91px !important;}
+	#content .vision .icon-quote{height: 30px;}
+	#content .vision .icon-quote img{width: 30px;}
+	#content .mission .icon-quote{height: 30px;}
+	#content .mission .icon-quote img{width: 30px;}
+	#content .inprogress .group-inprogress{padding-left: 91px !important;}
+	#slider-portflios .imglastnews img{width: 399px;height: 240px;}
+	#content .inprogress .slick-initialized .slick-slide{margin-left: -45px;}
+	#slider-portflios .text h4{font-size: 16px;margin-top: 8px;}
+	#slider-portflios .text h3{font-size: 16px;}
+	#content .inprogress .b-img{height: 653px;}
+	#content .profile .slick-initialized .slick-slide{margin-left: -10px;}
+	#content .profile .group-profile{padding-left: 91px !important;}
+	#content .event .items .img{height: 230px;width: 100%;}
+	#content .event .items .text h4{font-size: 12px;line-height: 25px;}
+	#content .team .items .img{height: 220px;}
+	#content .award .group-award .title h2{padding-right: 19%;}
+	#content .opennow .items .text{height: 345px;}
+	#content .targert ul li span:last-child{font-size: 12px; margin-top: -33px;padding-left: 36px;}
+	#content .targert .box-img-text .box-text h4{font-size: 14px;}
+	#content .targert .group-title h2{padding-right: 59%;}
+
+
 
 	
 }
