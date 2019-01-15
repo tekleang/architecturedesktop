@@ -86,9 +86,15 @@
 			</div>
 
 <script type="text/javascript">
+	var widthSlider;
+	if ($(window).width() <= 1300){
+		widthSlider = 1.15;
+	}else {
+		widthSlider = 2.01;
+	}
 	$('#slider-portflios').slick({
 	centerMode:true,
-  slidesToShow: 2.01,
+  slidesToShow: widthSlider,
   autoplay: true,
   autoplaySpeed: 4000,
   // centerMode: true,

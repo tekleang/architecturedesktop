@@ -5,7 +5,6 @@
 .carousel-caption .text{display: flex;justify-content: center;flex-direction: column;align-items: center;}
 
 .carousel-caption .text h1{padding: 0 15%;}
-}
 </style>
 			<!-- banner home -->
 			<div class="container-fluid banner-home">
@@ -177,7 +176,8 @@
 									</div>
 								</div>
 							</div>
-							<div class="box-thin-height">
+							<div class="box-thin-height col-sm-12" style="padding: 0;">
+
 								<div class="col-sm-4">
 									<div class="items zoom-out">
 										<div class="img wow slideInUp slow" >
@@ -327,9 +327,15 @@
 			</div>
 
 <script type="text/javascript">
+	var widthSlider;
+	if ($(window).width() <= 1300){
+		widthSlider = 2.15;
+	}else {
+		widthSlider = 3.15;
+	}
 	$('#slider').slick({
 	centerMode:true,
-  slidesToShow: 3.15,
+  slidesToShow: widthSlider,
   autoplay: true,
   autoplaySpeed: 4000,
   // centerMode: true,
@@ -354,7 +360,6 @@
 #slideshow .text{padding-top: 30px;}
 #slideshow .text h3{font-size: 18px;text-transform: uppercase;margin: 0;}
 #slideshow .text h4{font-size: 18px;margin: 0;text-transform: capitalize;margin-top: 15px;}
-
 #content .achive .zoom-out{overflow: hidden;}
 #content .achive .zoom-out img{transition: 0.7s;}
 #content .achive .zoom-out:hover img{-moz-transform: scale(1);-webkit-transform: scale(1.1);transform: scale(1.1);}
@@ -511,6 +516,12 @@
 
 
 	<script type="text/javascript">
+	var widthSlider;
+	if ($(window).width() <= 1300){
+		widthSlider = 4;
+	}else {
+		widthSlider = 3.15;
+	}
 		$('#partner').slick({
     autoplay: true,
     autoplaySpeed: 6000,
@@ -518,8 +529,8 @@
     arrows: false,
     dots: true,
     rows: 2,
-    slidesToShow: 8,
-    slidesToScroll: 8,
+    slidesToShow: widthSlider,
+    slidesToScroll: widthSlider,
   });
 
 	$('.slick-dots li button').text('');

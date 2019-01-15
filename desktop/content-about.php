@@ -119,7 +119,7 @@
 					</div>
 					
 					<div class="container-fluid group-profile" style="padding-left: 171px">
-						<div class="title">
+						<div class="title title-about">
 							<div class="linehigh"></div>
 							<h4>what we do</h4>
 							<h2>We is making headlines for raising the profile of architects news in the world.</h2>
@@ -157,9 +157,15 @@
 			</div>
 
 <script type="text/javascript">
+	var widthSlider;
+	if ($(window).width() <= 1300){
+		widthSlider = 2.15;
+	}else {
+		widthSlider = 3.15;
+	}
 	$('#slider').slick({
 	centerMode:true,
-  slidesToShow: 3.15,
+  slidesToShow: widthSlider,
   autoplay: true,
   autoplaySpeed: 4000,
   // centerMode: true,

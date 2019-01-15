@@ -95,7 +95,7 @@
                     <h4>MEET OUR TEAM</h4>
                 </div>
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-sm-6 col-lg-3 col-md-4">
                         <div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.1s">
                             <div class="img">
                                 <img src="<?php echo $BATH_URL;?>assets/images/Architecture-Link-option21-team-01.jpg" alt="">
@@ -106,7 +106,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-6 col-lg-3 col-md-4">
                         <div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.3s">
                             <div class="img">
                                 <img src="<?php echo $BATH_URL;?>assets/images/Architecture-Link-option21-team-02.jpg" alt="">
@@ -117,7 +117,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-6 col-lg-3 col-md-4">
                         <div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.6s">
                             <div class="img">
                                 <img src="<?php echo $BATH_URL;?>assets/images/Architecture-Link-option21-team-03.jpg" alt="">
@@ -128,7 +128,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-6 col-lg-3 col-md-4">
                         <div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.9s">
                             <div class="img">
                                 <img src="<?php echo $BATH_URL;?>assets/images/Architecture-Link-option21-team-04.jpg" alt="">
@@ -139,7 +139,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-6 col-lg-3 col-md-4">
                         <div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.1s">
                             <div class="img">
                                 <img src="<?php echo $BATH_URL;?>assets/images/Architecture-Link-option21-team-01.jpg" alt="">
@@ -150,7 +150,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-6 col-lg-3 col-md-4">
                         <div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.3s">
                             <div class="img">
                                 <img src="<?php echo $BATH_URL;?>assets/images/Architecture-Link-option21-team-02.jpg" alt="">
@@ -161,7 +161,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-6 col-lg-3 col-md-4">
                         <div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.6s">
                             <div class="img">
                                 <img src="<?php echo $BATH_URL;?>assets/images/Architecture-Link-option21-team-03.jpg" alt="">
@@ -172,7 +172,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-6 col-lg-3 col-md-4">
                         <div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.9s">
                             <div class="img">
                                 <img src="<?php echo $BATH_URL;?>assets/images/Architecture-Link-option21-team-04.jpg" alt="">
@@ -183,7 +183,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-6 col-lg-3 col-md-4">
                         <div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.1s">
                             <div class="img">
                                 <img src="<?php echo $BATH_URL;?>assets/images/Architecture-Link-option21-team-01.jpg" alt="">
@@ -194,7 +194,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-6 col-lg-3 col-md-4">
                         <div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.3s">
                             <div class="img">
                                 <img src="<?php echo $BATH_URL;?>assets/images/Architecture-Link-option21-team-02.jpg" alt="">
@@ -205,7 +205,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-6 col-lg-3 col-md-4">
                         <div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.6s">
                             <div class="img">
                                 <img src="<?php echo $BATH_URL;?>assets/images/Architecture-Link-option21-team-03.jpg" alt="">
@@ -216,7 +216,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-6 col-lg-3 col-md-4">
                         <div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.9s">
                             <div class="img">
                                 <img src="<?php echo $BATH_URL;?>assets/images/Architecture-Link-option21-team-04.jpg" alt="">

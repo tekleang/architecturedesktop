@@ -70,11 +70,11 @@
 	#content .mission .icon-quote{height: 30px;}
 	#content .mission .icon-quote img{width: 30px;}
 	#content .inprogress .group-inprogress{padding-left: 91px !important;}
-	#slider-portflios .imglastnews img{width: 399px;height: 240px;}
-	#content .inprogress .slick-initialized .slick-slide{margin-left: -45px;}
+	#slider-portflios .imglastnews img{width: 687px;height: 320px;}
+	#content .inprogress .slick-initialized .slick-slide{margin-left: 70px;}
 	#slider-portflios .text h4{font-size: 16px;margin-top: 8px;}
 	#slider-portflios .text h3{font-size: 16px;}
-	#content .inprogress .b-img{height: 653px;}
+	#content .inprogress .b-img{height: 713px;}
 	#content .profile .slick-initialized .slick-slide{margin-left: -10px;}
 	#content .profile .group-profile{padding-left: 91px !important;}
 	#content .event .items .img{height: 230px;width: 100%;}
@@ -99,12 +99,64 @@
 /* Portrait tablet to landscape and desktop */
 
 @media (min-width:768px) and (max-width:1023px)  {
-	*{overflow-x: hidden;}
+	#content,#footer{overflow-x: hidden;}
 	.pagination,.pagination .page,.pagination ul,
 	.pagination ul li{overflow-x: visible;}
-	h1{font-size: 28px;}
+	.button button{height: 35px;}
+	h1{font-size: 28px !important;}
 	h2{font-size: 20px !important;}
-	
+	h4{font-size: 14px !important;}
+	#content .build .welcome .box-text h4{font-size: 14px;}
+	#content .build .welcome .box-text h2{padding-right: 5%;}
+	#content .build .welcome .box-text p{font-size: 14px;padding-right: 18%;}
+	#content .build .col-sm-6 .img{height: 450px;}
+	#content .luxury .title h2{padding-right: 46%;}
+	#content .luxury .items .img{height: 160px;}
+	#content .luxury .items .text h3{font-size: 16px;}
+	#content .luxury .items .text{height: 80%;}
+	#content .luxury .box-thin-height .col-sm-4 .img{height: 180px;}
+	#content .profile .group-profile{padding-left: 69px !important;}
+	#slider .imglastnews img{height: 200px;width: 255px !important;}
+	#content .profile .slick-initialized .slick-slide{margin-left: -8px;}
+	#slider .text h3{font-size: 12px;}
+	#content .profile .b-img{height: 707px;}
+	#content .profile .b-img .right{height: 707px;}
+	#content .achive .group-achive{padding-left: 69px !important;}
+	#content .achive .slick-initialized .slick-slide{margin-left: 35px;}
+	#slideshow .text h3{font-size: 14px;}
+	#slideshow .text h4{font-size: 12px !important;}
+	#slideshow .imglastnews>div{width: 150px;height: 150px;}
+	#content .achive .title h2{padding-right: 48%;}
+	#content .happy p{padding: 0 3%;}
+	#content .happy .icon-quote{height: 30px;}
+	#content .happy .icon-quote img{width: 30px;}
+	#content .achive .group-achive{padding-bottom: 0;}
+	#content .sub-banner .banner-img{height: 450px;}
+	#content .project .title h2{padding-right: 27%;}
+	#content .project .box{display: none}
+	#content .project .items .img{height: 320px;}
+	#content .profile .title-about h2{padding-right: 45%;}
+	#content .award .img{height: 260px;}
+	#content .vision .items .text p{padding: 0 15%;}
+	#content .vision .items .text p{padding: 0 8%;}
+	#content .vision .icon-quote{height: 30px;}
+	#content .vision .icon-quote img{width: 30px;}
+	#content .mission .icon-quote{height: 30px;}
+	#content .mission .icon-quote img{width: 30px;}
+	#content .inprogress .group-inprogress{padding-left: 69px !important;}
+
+	#slider-portflios .imglastnews img{width: 485px;height: 260px;}
+	#content .inprogress .slick-initialized .slick-slide{margin-left: 28px;}
+	#content .inprogress .b-img{height: 666px;}
+	#content .event .items .img{height: 290px;width: 100% !important;}
+	#content .team .items .img{height: 310px;}
+	#content .targert .group-title h2{padding-right: 60%;}
+	#content .targert ul li span:last-child{width: 130%;padding-left: 32px;font-size: 12px;margin-top: -29px;}
+	#content .award .group-award .title h2{padding-right: 26%;line-height: normal;}
+	#content .award .img{height: 330px;}
+	#content .opennow .items .text h5{font-size: 14px;}
+	#content .opennow .items .text{height: 320px;}
+	#partner .slick-slide>div{width: 138px;height: 80px;}
 }
 
 

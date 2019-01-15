@@ -89,9 +89,15 @@
 			</div>
 
 <script type="text/javascript">
+	var widthSlider;
+	if ($(window).width() <= 1300){
+		widthSlider = 2.15;
+	}else {
+		widthSlider = 3.15;
+	}
 	$('#slider').slick({
 	centerMode:true,
-  slidesToShow: 3.15,
+  slidesToShow: widthSlider,
   autoplay: true,
   autoplaySpeed: 4000,
   // centerMode: true,
@@ -121,7 +127,7 @@
 					<h4>OUR NEWS & EVENTS</h4>
 				</div>
 				<div class="row">
-					<div class="col-sm-4">
+					<div class="col-sm-6 col-lg-4 col-md-4">
 						<div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.1s">
 							<a href="content-media-detail.php"></a>
 							<div class="img">
@@ -133,7 +139,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-6 col-lg-4 col-md-4">
 						<div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.3s">
 							<a href="content-media-detail.php"></a>
 							<div class="img">
@@ -145,7 +151,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-6 col-lg-4 col-md-4">
 						<div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.6s">
 							<a href="content-media-detail.php">
 								<div class="img">
@@ -158,7 +164,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-6 col-lg-4 col-md-4">
 						<div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.1s">
 							<a href="content-media-detail.php">
 								<div class="img">
@@ -172,7 +178,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-6 col-lg-4 col-md-4">
 						<div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.3s">
 							<a href="content-media-detail.php">
 								<div class="img">
@@ -186,7 +192,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-6 col-lg-4 col-md-4">
 						<div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.6s">
 							<a href="content-media-detail.php">
 								<div class="img">
@@ -200,7 +206,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-6 col-lg-4 col-md-4">
 						<div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.1s">
 							<a href="content-media-detail.php">
 								<div class="img">
@@ -214,7 +220,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-6 col-lg-4 col-md-4">
 						<div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.3s">
 							<a href="content-media-detail.php">
 								<div class="img">
@@ -228,7 +234,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-6 col-lg-4 col-md-4">
 						<div class="items zoom-out wow fadeInUp slow" data-wow-duration="1.6s">
 							<a href="content-media-detail.php">
 								<div class="img">
@@ -245,8 +251,10 @@
 
 
 
-					<div class="button">
-						<button>LOAD MORE</button>
+					<div class="col-sm-12">
+						<div class="button">
+							<button>LOAD MORE</button>
+						</div>
 					</div>
 				</div>
 			</div>
