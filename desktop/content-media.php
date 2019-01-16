@@ -91,7 +91,7 @@
 <script type="text/javascript">
 	var widthSlider;
 	if ($(window).width() <= 1300){
-		widthSlider = 2.15;
+		widthSlider = 2.10;
 	}else {
 		widthSlider = 3.15;
 	}

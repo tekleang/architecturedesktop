@@ -101,8 +101,8 @@ body{
 ////////////////////////////////////////////////////////////////////////////////
 *****************************************************************************/
 /*banner-home*/
-.carousel-indicators .active{background-color: #B69E58;border: 1px solid #B69E58;}
-.carousel-indicators li{background-color: #fff;border: 1px solid #B69E58;}
+.carousel-indicators .active{background-color: #FF0000;border: 1px solid #B69E58;}
+.carousel-indicators li{background-color: #fff;border: 1px solid #FF0000;}
 #content a .glyphicon-chevron-left{display: none;}
 #content a:hover .glyphicon-chevron-left{display: block !important;}
 #content a .glyphicon-chevron-right{display: none;}

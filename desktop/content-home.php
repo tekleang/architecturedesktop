@@ -329,7 +329,7 @@
 <script type="text/javascript">
 	var widthSlider;
 	if ($(window).width() <= 1300){
-		widthSlider = 2.15;
+		widthSlider = 2.10;
 	}else {
 		widthSlider = 3.15;
 	}
@@ -423,9 +423,17 @@
 	</div>
 </div>
 <script type="text/javascript">
+	var widthSlider;
+	if ($(window).width() <= 1300){
+		widthSlider = 3.10;
+	}else if ($(window).width() <= 1023){
+		widthSlider = 2.30;
+	}else {
+		widthSlider = 4.20;
+	}
 	$('#slideshow').slick({
 	centerMode:false,
-  slidesToShow: 4.20,
+  slidesToShow: widthSlider,
   autoplay: true,
   autoplaySpeed: 4000,
   // centerMode: true,
@@ -520,7 +528,7 @@
 	if ($(window).width() <= 1300){
 		widthSlider = 4;
 	}else {
-		widthSlider = 3.15;
+		widthSlider = 8;
 	}
 		$('#partner').slick({
     autoplay: true,

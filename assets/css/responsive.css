@@ -32,6 +32,7 @@
 	#content .event .items .text h4{font-size: 16px;}
 	#content .team .items .img{height: 290px;}
 	#content .opennow .items .text{height: 430px;}
+	#content .award .group-award .title h2{padding-right: 39%;}
 
 }
 
@@ -48,8 +49,8 @@
 	#content .luxury .items .img{height: 218px;}
 	#content .luxury .box-thin-height .col-sm-4 .img{height: 230px;}
 	#content .profile .title h2{padding-right: 39%;}
-	#slider .imglastnews img{height: 245px;width: 245px;}
-	#content .profile .slick-initialized .slick-slide{margin-left: -10px;}
+	#slider .imglastnews img{height: 314px;width: 345px;}
+	#content .profile .slick-initialized .slick-slide{margin-left: 30%;}
 	#content .profile .group-profile{padding-left: 91px !important;}
 	#slider .text h3{font-size: 12px;line-height: 25px;}
 	#content .profile .b-img{height: 750px;}
@@ -108,7 +109,7 @@
 	h4{font-size: 14px !important;}
 	#content .build .welcome .box-text h4{font-size: 14px;}
 	#content .build .welcome .box-text h2{padding-right: 5%;}
-	#content .build .welcome .box-text p{font-size: 14px;padding-right: 18%;}
+	#content .build .welcome .box-text p{font-size: 14px;padding-right: 10px;}
 	#content .build .col-sm-6 .img{height: 450px;}
 	#content .luxury .title h2{padding-right: 46%;}
 	#content .luxury .items .img{height: 160px;}
@@ -122,10 +123,10 @@
 	#content .profile .b-img{height: 707px;}
 	#content .profile .b-img .right{height: 707px;}
 	#content .achive .group-achive{padding-left: 69px !important;}
-	#content .achive .slick-initialized .slick-slide{margin-left: 35px;}
+	#content .achive .slick-initialized .slick-slide{margin-left: 25px;}
 	#slideshow .text h3{font-size: 14px;}
 	#slideshow .text h4{font-size: 12px !important;}
-	#slideshow .imglastnews>div{width: 150px;height: 150px;}
+	#slideshow .imglastnews>div{width: 100%;height: 190px;}
 	#content .achive .title h2{padding-right: 48%;}
 	#content .happy p{padding: 0 3%;}
 	#content .happy .icon-quote{height: 30px;}
